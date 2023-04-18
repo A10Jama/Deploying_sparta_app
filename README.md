@@ -1,4 +1,4 @@
-# start by Provisioning the Virtual machine 
+# start by Provisioning the Virtual Machine 
 <img width="1208" alt="Screenshot 2023-04-18 at 16 21 26" src="https://user-images.githubusercontent.com/129948378/232824506-421de4a8-dd26-4719-8077-df0f34353ce8.png">
 
 to edit the VagrantFile from the Vagrant Virtualbox connection we add a additional line to sync the app folder to our Vagrant VM. config.vm.synced... is the new line we add.
