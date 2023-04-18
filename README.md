@@ -1,3 +1,19 @@
+#Provision Virtual machine 
+<img width="1208" alt="Screenshot 2023-04-18 at 16 21 26" src="https://user-images.githubusercontent.com/129948378/232824506-421de4a8-dd26-4719-8077-df0f34353ce8.png">
+
+to edit the VagrantFile from the Vagrant Virtualbox connection we add a additional line to sync the app folder to our Vagrant VM. config.vm.synced... is the new line we add.
+
+``` Vagrant.configure("2") do |config|
+
+  config.vm.box = "ubuntu/xenial64"
+  config.vm.network "private_network", ip: "192.168.10.100"
+  # syncing the app folder
+  config.vm.synced_folder "app", "/home/vagrant/app"
+end
+```
+## to ensure nginx is installed 
+place these commands in the provision.sh file
+
 # Deploying Sparta App 
 
 
