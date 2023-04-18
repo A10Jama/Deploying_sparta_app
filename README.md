@@ -31,3 +31,48 @@
 
 ### You should see this page when you press enter 
 <img width="942" alt="Screenshot 2023-04-18 at 14 04 27" src="https://user-images.githubusercontent.com/129948378/232798973-26f32ef2-130e-41da-af94-b44ae7589164.png">
+
+To have this already Automated with the provision script at these codes 
+<img width="1250" alt="Screenshot 2023-04-18 at 16 05 59" src="https://user-images.githubusercontent.com/129948378/232821475-2b6bbbc2-7cb6-46b6-b0e4-f7fc4ddf558f.png">
+
+`#!/bin/bash
+
+# Update and upgrade system
+
+sudo apt-get update -y
+
+sudo apt-get upgrade -y
+
+# Install Nginx web server
+
+sudo apt-get install nginx -y
+
+# Start Nginx service
+
+sudo service nginx start
+
+# Install Python software properties
+
+sudo apt-get install python-software-properties -y
+
+# Install Node.js and related packages from NodeSource repository
+
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash
+
+sudo apt-get install nodejs -y
+
+# Install pm2 process manager globally
+
+sudo npm install pm2 -g
+
+# Change to app directory
+
+cd app
+
+# Install app dependencies
+
+npm install
+
+# Start app with pm2 process manager
+
+npm start`
