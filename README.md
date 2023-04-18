@@ -32,7 +32,7 @@
 ### You should see this page when you press enter 
 <img width="942" alt="Screenshot 2023-04-18 at 14 04 27" src="https://user-images.githubusercontent.com/129948378/232798973-26f32ef2-130e-41da-af94-b44ae7589164.png">
 
-To have this already Automated with the provision script at these codes 
+## To have this already Automated with the provision script add these codes 
 <img width="1250" alt="Screenshot 2023-04-18 at 16 05 59" src="https://user-images.githubusercontent.com/129948378/232821475-2b6bbbc2-7cb6-46b6-b0e4-f7fc4ddf558f.png">
 
 ```#!/bin/bash
