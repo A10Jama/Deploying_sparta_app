@@ -22,7 +22,8 @@ sudo apt-get install nginx -y
 - Start Nginx service
 sudo service nginx start
 ```
-<img width="1208" alt="Screenshot 2023-04-18 at 16 21 26" src="https://user-images.githubusercontent.com/129948378/232828980-c76feba5-f449-4d26-b470-153904426dc3.png">
+<img width="971" alt="Screenshot 2023-04-18 at 16 34 29" src="https://user-images.githubusercontent.com/129948378/232829438-03353e58-ca5b-4ee3-bef4-dfa7b8c01db2.png">
+
 
 # Deploying Sparta App 
 
